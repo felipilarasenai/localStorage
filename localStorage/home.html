@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <H1>Cadastro Livro</H1>
+        <button onclick="logout()">Deslogar</button>
+    </header>
+
+    <div>
+        <input type="text" id="newtitle" placeholder="Digite o titulo do livro" required>
+        <input type="text" id="author" placeholder="Digite o nome do autor" required>
+        <input type="text" id="gender" placeholder="Digite o gênero do livro" required>
+        <input type="number" id="isbn" placeholder="Digite o ISBN" required>
+        <button onclick="cadastrarLivro()">cadastrar Livro</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
